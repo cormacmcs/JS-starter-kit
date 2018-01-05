@@ -42,7 +42,8 @@ export default {
         minifyCSS: true,
         minifyURLs: true
       },
-      inject: true
+      inject: true,
+      rollbarToken: "5021b662b9784587b149d5ca366d6e07"
     }),
     //Eliminate duplicate packages
     new webpack.optimize.DedupePlugin(),
